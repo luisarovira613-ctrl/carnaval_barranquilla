@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes del Carnaval</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body class="personajes">
+    <div id="welcome-message"></div>
+
+    <header>
+        <nav aria-label="Menú principal de navegación">
+            <a href="index.html">Inicio</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Explorar ▼</a>
+                <div class="dropdown-content">
+                    <a href="historia.html">Historia</a>
+                    <a href="personajes.html">Personajes</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section class="slider-container">
+            <div class="slider" id="main-slider">
+                <img src="images/reyes en el domingo de tradicion 2026.jpg" alt="Reina_y_Rey_del_Carnaval_2026" class="slide active">
+                <img src="images/EDI05442-1536x1024.jpg" alt="Comparsa_en_el_carnaval_de_barranquilla" class="slide">
+                <img src="images/EDI05501-scaled.jpg" alt="Comparsa_en_el_carnaval_de_barranquilla_desfile_de_los_niños" class="slide">
+                <img src="images/7865325b-f2b7-4192-a37f-ab9a14d1e5b1-1024x683.jpg" alt="Reyes_del_carvanal_de_los_niños reciben su decreto" class="slide">
+                <img src="images/Reina-coronacion-2048x1366.jpeg" alt="Reina_del_carnaval_2026_en_la_coronacion" class="slide">
+            </div>
+        
+            <button class="prev" aria-label="Anterior">&#10094;</button>
+            <button class="next" aria-label="Siguiente">&#10095;</button>
+        </section>
+
+        <section class="titulo-personajes">
+            <h1>Personajes del Carnaval de Barranquilla</h1>
+            <img src="images/personaje.jpeg" alt="Personajes tradicionales" width="900" height="500">
+        </section>
+
+        <section class="contenido-personajes">
+            <article class="texto">
+                <p>El Carnaval de Barranquilla se caracteriza por su gran variedad de personajes tradicionales que forman parte esencial de sus desfiles, comparsas y presentaciones culturales. Estos personajes representan la historia, el humor, las tradiciones y la diversidad cultural existente en el Caribe colombiano, elementos que se han preservado y transmitido de generación en generación, convirtiéndose en parte fundamental del patrimonio cultural.</p>
+                <p>Entre los personajes más representativos se encuentra la Marimonda, reconocida por su máscara con nariz larga y orejas grandes, símbolo del humor, la burla y la creatividad popular. También destaca el Congo, uno de los personajes más antiguos del carnaval, que refleja la herencia africana a través de su vestuario colorido y sus danzas tradicionales. Por otro lado, se encuentra el Garabato, que representa simbólicamente la lucha entre la vida y la muerte, mostrando una tradición cargada de significado cultural.</p>
+            </article>
+
+            <section class="galeria-personajes" aria-labelledby="galeria-titulo">
+                <h2 id="galeria-titulo" class="sr-only">Galería de Personajes</h2>
+                <figure>
+                    <img src="images/personaje1.png" alt="Reina del Carnaval" loading="lazy">
+                    <figcaption>Reina del Carnaval</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/personaje2.jpeg" alt="Comparsa de Marimondas" loading="lazy">
+                    <figcaption>Marimondas</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/personaje3.jpeg" alt="Lectura del Bando" loading="lazy">
+                    <figcaption>Lectura del Bando</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/personaje4.jpg" alt="El Garabato" loading="lazy">
+                    <figcaption>El Garabato</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/personaje5.png" alt="El Congo" loading="lazy">
+                    <figcaption>El Congo</figcaption>
+                </figure>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Carnaval de Barranquilla – Sitio web educativo</p>
+    </footer>
+
+</body>
+</html>
